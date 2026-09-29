@@ -1,0 +1,1 @@
+export default function SarViewer({file}){return <div className="card"><h3>SAR INPUT</h3><p>{file?.name||'No SAR file selected.'}</p></div>}

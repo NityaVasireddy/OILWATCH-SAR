@@ -1,0 +1,1 @@
+export default function Timeline({records=[]}){return <div className="card"><h3>AIS TIMELINE</h3><p>{records.length?`${records.length} actual records loaded.`:'No AIS records loaded.'}</p></div>}

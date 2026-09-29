@@ -1,0 +1,1 @@
+export default function VesselDetails({vessel}){return <div className="card"><h3>VESSEL DETAILS</h3>{vessel?<pre>{JSON.stringify(vessel,null,2)}</pre>:<p>Select an actual AIS candidate.</p>}<p>Investigation lead only — correlation does not establish responsibility.</p></div>}

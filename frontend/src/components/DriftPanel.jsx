@@ -1,0 +1,1 @@
+export default function DriftPanel(){return <div className="card"><h3>DRIFT BACKTRACKING</h3><p>Requires actual detection coordinates/timestamp plus measured wind/current inputs. No values are prefilled.</p></div>}

@@ -1,0 +1,1 @@
+export default function AisUpload({onUpload}){return <label className="secondary">UPLOAD AIS CSV<input type="file" accept=".csv" onChange={e=>e.target.files[0]&&onUpload(e.target.files[0])}/></label>}

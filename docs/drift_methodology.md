@@ -1,0 +1,2 @@
+# Drift methodology
+The prototype uses a deliberately simplified constant-vector backtracking model. Wind and current are represented as speed/direction vectors; the estimated path is integrated backward using a spherical-Earth approximation. It does not model diffusion, weathering, wave drift, coastline interactions, or time-varying forcing. Therefore the output is an estimated release region/time window, not an exact origin.

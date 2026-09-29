@@ -1,0 +1,1856 @@
+{
+  "dataset_root": ".",
+  "exists": true,
+  "archive_notes": [],
+  "directories": [
+    "backend",
+    "configs",
+    "dataset",
+    "docs",
+    "frontend",
+    "tests",
+    "backend\\ais",
+    "backend\\api",
+    "backend\\data",
+    "backend\\geospatial",
+    "backend\\ml",
+    "backend\\model",
+    "backend\\__pycache__",
+    "dataset\\metadata",
+    "dataset\\raw",
+    "frontend\\src",
+    "tests\\__pycache__",
+    "frontend\\src\\components",
+    "frontend\\src\\services",
+    "frontend\\src\\styles",
+    "dataset\\raw\\test",
+    "dataset\\raw\\train",
+    "dataset\\raw\\test\\images",
+    "dataset\\raw\\test\\masks",
+    "dataset\\raw\\train\\images",
+    "dataset\\raw\\train\\masks",
+    "backend\\data\\__pycache__"
+  ],
+  "files": [
+    {
+      "path": ".env",
+      "extension": "",
+      "bytes": 87
+    },
+    {
+      "path": ".env.example",
+      "extension": ".example",
+      "bytes": 87
+    },
+    {
+      "path": ".gitignore",
+      "extension": "",
+      "bytes": 96
+    },
+    {
+      "path": "README.md",
+      "extension": ".md",
+      "bytes": 5342
+    },
+    {
+      "path": "requirements.txt",
+      "extension": ".txt",
+      "bytes": 287
+    },
+    {
+      "path": "backend\\main.py",
+      "extension": ".py",
+      "bytes": 1536
+    },
+    {
+      "path": "backend\\__init__.py",
+      "extension": ".py",
+      "bytes": 0
+    },
+    {
+      "path": "configs\\preprocessing.yaml",
+      "extension": ".yaml",
+      "bytes": 129
+    },
+    {
+      "path": "configs\\training.yaml",
+      "extension": ".yaml",
+      "bytes": 135
+    },
+    {
+      "path": "docs\\ais_methodology.md",
+      "extension": ".md",
+      "bytes": 367
+    },
+    {
+      "path": "docs\\architecture.md",
+      "extension": ".md",
+      "bytes": 323
+    },
+    {
+      "path": "docs\\dataset.md",
+      "extension": ".md",
+      "bytes": 319
+    },
+    {
+      "path": "docs\\drift_methodology.md",
+      "extension": ".md",
+      "bytes": 431
+    },
+    {
+      "path": "docs\\limitations.md",
+      "extension": ".md",
+      "bytes": 499
+    },
+    {
+      "path": "docs\\model.md",
+      "extension": ".md",
+      "bytes": 276
+    },
+    {
+      "path": "docs\\research.md",
+      "extension": ".md",
+      "bytes": 508
+    },
+    {
+      "path": "frontend\\index.html",
+      "extension": ".html",
+      "bytes": 72
+    },
+    {
+      "path": "frontend\\package.json",
+      "extension": ".json",
+      "bytes": 258
+    },
+    {
+      "path": "tests\\test_api_contract.py",
+      "extension": ".py",
+      "bytes": 805
+    },
+    {
+      "path": "tests\\test_core.py",
+      "extension": ".py",
+      "bytes": 483
+    },
+    {
+      "path": "frontend\\src\\App.jsx",
+      "extension": ".jsx",
+      "bytes": 7818
+    },
+    {
+      "path": "frontend\\src\\main.jsx",
+      "extension": ".jsx",
+      "bytes": 178
+    },
+    {
+      "path": "frontend\\src\\components\\AisMap.jsx",
+      "extension": ".jsx",
+      "bytes": 709
+    },
+    {
+      "path": "frontend\\src\\components\\AisUpload.jsx",
+      "extension": ".jsx",
+      "bytes": 200
+    },
+    {
+      "path": "frontend\\src\\components\\DetectionResult.jsx",
+      "extension": ".jsx",
+      "bytes": 463
+    },
+    {
+      "path": "frontend\\src\\components\\DriftPanel.jsx",
+      "extension": ".jsx",
+      "bytes": 214
+    },
+    {
+      "path": "frontend\\src\\components\\Header.jsx",
+      "extension": ".jsx",
+      "bytes": 316
+    },
+    {
+      "path": "frontend\\src\\components\\ModelStatus.jsx",
+      "extension": ".jsx",
+      "bytes": 268
+    },
+    {
+      "path": "frontend\\src\\components\\ReportExport.jsx",
+      "extension": ".jsx",
+      "bytes": 146
+    },
+    {
+      "path": "frontend\\src\\components\\SarUpload.jsx",
+      "extension": ".jsx",
+      "bytes": 321
+    },
+    {
+      "path": "frontend\\src\\components\\SarViewer.jsx",
+      "extension": ".jsx",
+      "bytes": 140
+    },
+    {
+      "path": "frontend\\src\\components\\Timeline.jsx",
+      "extension": ".jsx",
+      "bytes": 195
+    },
+    {
+      "path": "frontend\\src\\components\\VesselDetails.jsx",
+      "extension": ".jsx",
+      "bytes": 278
+    },
+    {
+      "path": "frontend\\src\\components\\VesselTable.jsx",
+      "extension": ".jsx",
+      "bytes": 339
+    },
+    {
+      "path": "frontend\\src\\services\\api.js",
+      "extension": ".js",
+      "bytes": 949
+    },
+    {
+      "path": "frontend\\src\\styles\\app.css",
+      "extension": ".css",
+      "bytes": 1687
+    },
+    {
+      "path": "dataset\\raw\\train\\dataframe_train_dataset_256_90.csv",
+      "extension": ".csv",
+      "bytes": 1647567
+    },
+    {
+      "path": "dataset\\raw\\train\\dataframe_val_dataset_256_90.csv",
+      "extension": ".csv",
+      "bytes": 549041
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\2018_08_21_.tif",
+      "extension": ".tif",
+      "bytes": 104296988,
+      "width": 5701,
+      "height": 4572,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -40.58983612060547,
+      "max": 18.38199806213379,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        304351.68832182453,
+        0.0,
+        -10.0,
+        3235153.4602488736,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        304351.68832182453,
+        3189433.4602488736,
+        361361.68832182453,
+        3235153.4602488736
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\2018_09_14_.tif",
+      "extension": ".tif",
+      "bytes": 46362380,
+      "width": 3602,
+      "height": 3216,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -39.627342224121094,
+      "max": 17.212121963500977,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        303167.26986225345,
+        0.0,
+        -10.0,
+        3230871.537411003,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        303167.26986225345,
+        3198711.537411003,
+        339187.26986225345,
+        3230871.537411003
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\2018_12_07.tif",
+      "extension": ".tif",
+      "bytes": 39993899,
+      "width": 4424,
+      "height": 2259,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -32.720298767089844,
+      "max": 13.832046508789062,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        277954.2028076417,
+        0.0,
+        -10.0,
+        3213027.717729572,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        277954.2028076417,
+        3190437.717729572,
+        322194.2028076417,
+        3213027.717729572
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\2018_12_07_b.tif",
+      "extension": ".tif",
+      "bytes": 40534931,
+      "width": 4922,
+      "height": 2058,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -23.498327255249023,
+      "max": 15.48961067199707,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        128944.2028076417,
+        0.0,
+        -10.0,
+        3138117.717729572,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        128944.2028076417,
+        3117537.717729572,
+        178164.2028076417,
+        3138117.717729572
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\2018_12_19.tif",
+      "extension": ".tif",
+      "bytes": 50028107,
+      "width": 5164,
+      "height": 2421,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -32.086483001708984,
+      "max": 20.04606819152832,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        205731.59405453247,
+        0.0,
+        -10.0,
+        3264118.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        205731.59405453247,
+        3239908.9172162125,
+        257371.59405453247,
+        3264118.9172162125
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\2018_12_19_b.tif",
+      "extension": ".tif",
+      "bytes": 40200283,
+      "width": 4640,
+      "height": 2165,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -30.585346221923828,
+      "max": 27.417783737182617,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        197661.59405453247,
+        0.0,
+        -10.0,
+        3216508.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        197661.59405453247,
+        3194858.9172162125,
+        244061.59405453247,
+        3216508.9172162125
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\2018_12_31_b.tif",
+      "extension": ".tif",
+      "bytes": 66013323,
+      "width": 5564,
+      "height": 2965,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -34.777061462402344,
+      "max": 26.264524459838867,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        264101.8039669605,
+        0.0,
+        -10.0,
+        3213994.587712208,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        264101.8039669605,
+        3184344.587712208,
+        319741.8039669605,
+        3213994.587712208
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\20190816.tif",
+      "extension": ".tif",
+      "bytes": 26971059,
+      "width": 3470,
+      "height": 1942,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -35.541507720947266,
+      "max": 16.422046661376953,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        301998.83839135873,
+        0.0,
+        -10.0,
+        3214835.127054147,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        301998.83839135873,
+        3195415.127054147,
+        336698.83839135873,
+        3214835.127054147
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\20190908.tif",
+      "extension": ".tif",
+      "bytes": 24848303,
+      "width": 3283,
+      "height": 1891,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -38.46342849731445,
+      "max": 17.8741512298584,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        835862.251607296,
+        0.0,
+        -10.0,
+        2723662.6594471936,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        835862.251607296,
+        2704752.6594471936,
+        868692.251607296,
+        2723662.6594471936
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\20200224.tif",
+      "extension": ".tif",
+      "bytes": 52186363,
+      "width": 3108,
+      "height": 4195,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -37.66067886352539,
+      "max": 15.890119552612305,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        287182.74524772307,
+        0.0,
+        -10.0,
+        3204697.950594548,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        287182.74524772307,
+        3162747.950594548,
+        318262.74524772307,
+        3204697.950594548
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\20200307.tif",
+      "extension": ".tif",
+      "bytes": 26042203,
+      "width": 3263,
+      "height": 1994,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -32.31134033203125,
+      "max": 16.44980812072754,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        288055.9017078412,
+        0.0,
+        -10.0,
+        3207279.030006452,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        288055.9017078412,
+        3187339.030006452,
+        320685.9017078412,
+        3207279.030006452
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\20200319.tif",
+      "extension": ".tif",
+      "bytes": 12245459,
+      "width": 2072,
+      "height": 1476,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -32.413612365722656,
+      "max": 9.235625267028809,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        281661.98388538795,
+        0.0,
+        -10.0,
+        3282632.7285611425,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        281661.98388538795,
+        3267872.7285611425,
+        302381.98388538795,
+        3282632.7285611425
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\20200331.tif",
+      "extension": ".tif",
+      "bytes": 29639939,
+      "width": 3690,
+      "height": 2007,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -33.11437225341797,
+      "max": 15.81337833404541,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        286987.71036565845,
+        0.0,
+        -10.0,
+        3220091.9635959887,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        286987.71036565845,
+        3200021.9635959887,
+        323887.71036565845,
+        3220091.9635959887
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\images\\20200822.tif",
+      "extension": ".tif",
+      "bytes": 21921443,
+      "width": 2978,
+      "height": 1839,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -32.70995330810547,
+      "max": 15.669501304626465,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        293222.19330551795,
+        0.0,
+        -10.0,
+        3218980.2892385954,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        293222.19330551795,
+        3200590.2892385954,
+        323002.19330551795,
+        3218980.2892385954
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\2018_08_21_.tif",
+      "extension": ".tif",
+      "bytes": 104296836,
+      "width": 5701,
+      "height": 4572,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        304351.68832182453,
+        0.0,
+        -10.0,
+        3235153.4602488736,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        304351.68832182453,
+        3189433.4602488736,
+        361361.68832182453,
+        3235153.4602488736
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\2018_09_14_.tif",
+      "extension": ".tif",
+      "bytes": 46362228,
+      "width": 3602,
+      "height": 3216,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        303167.26986225345,
+        0.0,
+        -10.0,
+        3230871.537411003,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        303167.26986225345,
+        3198711.537411003,
+        339187.26986225345,
+        3230871.537411003
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\2018_12_07.tif",
+      "extension": ".tif",
+      "bytes": 39993708,
+      "width": 4424,
+      "height": 2259,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        277954.2028076417,
+        0.0,
+        -10.0,
+        3213027.717729572,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        277954.2028076417,
+        3190437.717729572,
+        322194.2028076417,
+        3213027.717729572
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\2018_12_07_b.tif",
+      "extension": ".tif",
+      "bytes": 40534740,
+      "width": 4922,
+      "height": 2058,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        128944.2028076417,
+        0.0,
+        -10.0,
+        3138117.717729572,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        128944.2028076417,
+        3117537.717729572,
+        178164.2028076417,
+        3138117.717729572
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\2018_12_19.tif",
+      "extension": ".tif",
+      "bytes": 50027916,
+      "width": 5164,
+      "height": 2421,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        205731.59405453247,
+        0.0,
+        -10.0,
+        3264118.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        205731.59405453247,
+        3239908.9172162125,
+        257371.59405453247,
+        3264118.9172162125
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\2018_12_19_b.tif",
+      "extension": ".tif",
+      "bytes": 40200092,
+      "width": 4640,
+      "height": 2165,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        197661.59405453247,
+        0.0,
+        -10.0,
+        3216508.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        197661.59405453247,
+        3194858.9172162125,
+        244061.59405453247,
+        3216508.9172162125
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\2018_12_31_b.tif",
+      "extension": ".tif",
+      "bytes": 66013132,
+      "width": 5564,
+      "height": 2965,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        264101.8039669605,
+        0.0,
+        -10.0,
+        3213994.587712208,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        264101.8039669605,
+        3184344.587712208,
+        319741.8039669605,
+        3213994.587712208
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\20190816.tif",
+      "extension": ".tif",
+      "bytes": 26970868,
+      "width": 3470,
+      "height": 1942,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        301998.83839135873,
+        0.0,
+        -10.0,
+        3214835.127054147,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        301998.83839135873,
+        3195415.127054147,
+        336698.83839135873,
+        3214835.127054147
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\20190908.tif",
+      "extension": ".tif",
+      "bytes": 24848112,
+      "width": 3283,
+      "height": 1891,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        835862.251607296,
+        0.0,
+        -10.0,
+        2723662.6594471936,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        835862.251607296,
+        2704752.6594471936,
+        868692.251607296,
+        2723662.6594471936
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\20200224.tif",
+      "extension": ".tif",
+      "bytes": 52186172,
+      "width": 3108,
+      "height": 4195,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        287182.74524772307,
+        0.0,
+        -10.0,
+        3204697.950594548,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        287182.74524772307,
+        3162747.950594548,
+        318262.74524772307,
+        3204697.950594548
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\20200307.tif",
+      "extension": ".tif",
+      "bytes": 26042012,
+      "width": 3263,
+      "height": 1994,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        288055.9017078412,
+        0.0,
+        -10.0,
+        3207279.030006452,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        288055.9017078412,
+        3187339.030006452,
+        320685.9017078412,
+        3207279.030006452
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\20200319.tif",
+      "extension": ".tif",
+      "bytes": 12245268,
+      "width": 2072,
+      "height": 1476,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        281661.98388538795,
+        0.0,
+        -10.0,
+        3282632.7285611425,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        281661.98388538795,
+        3267872.7285611425,
+        302381.98388538795,
+        3282632.7285611425
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\20200331.tif",
+      "extension": ".tif",
+      "bytes": 29639748,
+      "width": 3690,
+      "height": 2007,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        286987.71036565845,
+        0.0,
+        -10.0,
+        3220091.9635959887,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        286987.71036565845,
+        3200021.9635959887,
+        323887.71036565845,
+        3220091.9635959887
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\train\\masks\\20200822.tif",
+      "extension": ".tif",
+      "bytes": 21921252,
+      "width": 2978,
+      "height": 1839,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        293222.19330551795,
+        0.0,
+        -10.0,
+        3218980.2892385954,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        293222.19330551795,
+        3200590.2892385954,
+        323002.19330551795,
+        3218980.2892385954
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\test\\images\\2018_09_26.tif",
+      "extension": ".tif",
+      "bytes": 51969263,
+      "width": 5083,
+      "height": 2555,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -36.45032501220703,
+      "max": 20.961740493774414,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        263759.2790307612,
+        0.0,
+        -10.0,
+        3210617.518601302,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        263759.2790307612,
+        3185067.518601302,
+        314589.2790307612,
+        3210617.518601302
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\test\\images\\2018_12_19_d.tif",
+      "extension": ".tif",
+      "bytes": 10455251,
+      "width": 2340,
+      "height": 1116,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -34.257938385009766,
+      "max": 12.130539894104004,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        282071.59405453247,
+        0.0,
+        -10.0,
+        3247408.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        282071.59405453247,
+        3236248.9172162125,
+        305471.59405453247,
+        3247408.9172162125
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\test\\images\\2018_12_19_e.tif",
+      "extension": ".tif",
+      "bytes": 35929043,
+      "width": 3772,
+      "height": 2380,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -34.47761535644531,
+      "max": 18.722408294677734,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        320181.59405453247,
+        0.0,
+        -10.0,
+        3239908.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        320181.59405453247,
+        3216108.9172162125,
+        357901.59405453247,
+        3239908.9172162125
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\test\\images\\2018_12_19_f_.tif",
+      "extension": ".tif",
+      "bytes": 33222956,
+      "width": 3250,
+      "height": 2554,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -37.574031829833984,
+      "max": 14.017058372497559,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        298131.59405453247,
+        0.0,
+        -10.0,
+        3225518.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        298131.59405453247,
+        3199978.9172162125,
+        330631.59405453247,
+        3225518.9172162125
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\test\\images\\20191015.tif",
+      "extension": ".tif",
+      "bytes": 34010627,
+      "width": 5050,
+      "height": 1683,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -34.675025939941406,
+      "max": 20.585819244384766,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        264486.6462806454,
+        0.0,
+        -10.0,
+        3203959.6541649555,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        264486.6462806454,
+        3187129.6541649555,
+        314986.6462806454,
+        3203959.6541649555
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\test\\images\\20200224_b.tif",
+      "extension": ".tif",
+      "bytes": 17719475,
+      "width": 2590,
+      "height": 1709,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -27.328933715820312,
+      "max": 16.86005973815918,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        198362.74524772307,
+        0.0,
+        -10.0,
+        3195107.950594548,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        198362.74524772307,
+        3178017.950594548,
+        224262.74524772307,
+        3195107.950594548
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\test\\images\\20200319b.tif",
+      "extension": ".tif",
+      "bytes": 16154579,
+      "width": 2641,
+      "height": 1528,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": -32.04018783569336,
+      "max": 15.829171180725098,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        289171.98388538795,
+        0.0,
+        -10.0,
+        3215562.7285611425,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        289171.98388538795,
+        3200282.7285611425,
+        315581.98388538795,
+        3215562.7285611425
+      ],
+      "nodata": null
+    },
+    {
+      "path": "dataset\\raw\\test\\masks\\2018_09_26.tif",
+      "extension": ".tif",
+      "bytes": 51969072,
+      "width": 5083,
+      "height": 2555,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        263759.2790307612,
+        0.0,
+        -10.0,
+        3210617.518601302,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        263759.2790307612,
+        3185067.518601302,
+        314589.2790307612,
+        3210617.518601302
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\test\\masks\\2018_12_19_d.tif",
+      "extension": ".tif",
+      "bytes": 10455060,
+      "width": 2340,
+      "height": 1116,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        282071.59405453247,
+        0.0,
+        -10.0,
+        3247408.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        282071.59405453247,
+        3236248.9172162125,
+        305471.59405453247,
+        3247408.9172162125
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\test\\masks\\2018_12_19_e.tif",
+      "extension": ".tif",
+      "bytes": 35928852,
+      "width": 3772,
+      "height": 2380,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        320181.59405453247,
+        0.0,
+        -10.0,
+        3239908.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        320181.59405453247,
+        3216108.9172162125,
+        357901.59405453247,
+        3239908.9172162125
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\test\\masks\\2018_12_19_f_.tif",
+      "extension": ".tif",
+      "bytes": 33222804,
+      "width": 3250,
+      "height": 2554,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        298131.59405453247,
+        0.0,
+        -10.0,
+        3225518.9172162125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        298131.59405453247,
+        3199978.9172162125,
+        330631.59405453247,
+        3225518.9172162125
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\test\\masks\\20191015.tif",
+      "extension": ".tif",
+      "bytes": 34010436,
+      "width": 5050,
+      "height": 1683,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        264486.6462806454,
+        0.0,
+        -10.0,
+        3203959.6541649555,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        264486.6462806454,
+        3187129.6541649555,
+        314986.6462806454,
+        3203959.6541649555
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\test\\masks\\20200224_b.tif",
+      "extension": ".tif",
+      "bytes": 17719284,
+      "width": 2590,
+      "height": 1709,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        198362.74524772307,
+        0.0,
+        -10.0,
+        3195107.950594548,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        198362.74524772307,
+        3178017.950594548,
+        224262.74524772307,
+        3195107.950594548
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "dataset\\raw\\test\\masks\\20200319b.tif",
+      "extension": ".tif",
+      "bytes": 16154388,
+      "width": 2641,
+      "height": 1528,
+      "channels": 1,
+      "dtype": "('float32',)",
+      "min": 0.0,
+      "max": 1.0,
+      "crs": "EPSG:32616",
+      "transform": [
+        10.0,
+        0.0,
+        289171.98388538795,
+        0.0,
+        -10.0,
+        3215562.7285611425,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "resolution": [
+        10.0,
+        10.0
+      ],
+      "bounds": [
+        289171.98388538795,
+        3200282.7285611425,
+        315581.98388538795,
+        3215562.7285611425
+      ],
+      "nodata": 0.0
+    },
+    {
+      "path": "backend\\ais\\correlation.py",
+      "extension": ".py",
+      "bytes": 2859
+    },
+    {
+      "path": "backend\\ais\\loader.py",
+      "extension": ".py",
+      "bytes": 246
+    },
+    {
+      "path": "backend\\ais\\trajectory.py",
+      "extension": ".py",
+      "bytes": 100
+    },
+    {
+      "path": "backend\\ais\\validation.py",
+      "extension": ".py",
+      "bytes": 922
+    },
+    {
+      "path": "backend\\ais\\__init__.py",
+      "extension": ".py",
+      "bytes": 0
+    },
+    {
+      "path": "backend\\api\\ais.py",
+      "extension": ".py",
+      "bytes": 672
+    },
+    {
+      "path": "backend\\api\\correlation.py",
+      "extension": ".py",
+      "bytes": 1591
+    },
+    {
+      "path": "backend\\api\\detection.py",
+      "extension": ".py",
+      "bytes": 2254
+    },
+    {
+      "path": "backend\\api\\drift.py",
+      "extension": ".py",
+      "bytes": 520
+    },
+    {
+      "path": "backend\\api\\report.py",
+      "extension": ".py",
+      "bytes": 444
+    },
+    {
+      "path": "backend\\api\\__init__.py",
+      "extension": ".py",
+      "bytes": 0
+    },
+    {
+      "path": "backend\\data\\inspect_dataset.py",
+      "extension": ".py",
+      "bytes": 5234
+    },
+    {
+      "path": "backend\\data\\inspect_dataset.py.tmp",
+      "extension": ".tmp",
+      "bytes": 0
+    },
+    {
+      "path": "backend\\data\\prepare_dataset.py",
+      "extension": ".py",
+      "bytes": 1998
+    },
+    {
+      "path": "backend\\data\\split_dataset.py",
+      "extension": ".py",
+      "bytes": 708
+    },
+    {
+      "path": "backend\\data\\__init__.py",
+      "extension": ".py",
+      "bytes": 0
+    },
+    {
+      "path": "backend\\geospatial\\drift.py",
+      "extension": ".py",
+      "bytes": 1097
+    },
+    {
+      "path": "backend\\geospatial\\raster.py",
+      "extension": ".py",
+      "bytes": 513
+    },
+    {
+      "path": "backend\\geospatial\\spill_analysis.py",
+      "extension": ".py",
+      "bytes": 2097
+    },
+    {
+      "path": "backend\\geospatial\\__init__.py",
+      "extension": ".py",
+      "bytes": 0
+    },
+    {
+      "path": "backend\\ml\\dataset.py",
+      "extension": ".py",
+      "bytes": 642
+    },
+    {
+      "path": "backend\\ml\\evaluate.py",
+      "extension": ".py",
+      "bytes": 1759
+    },
+    {
+      "path": "backend\\ml\\inference.py",
+      "extension": ".py",
+      "bytes": 1000
+    },
+    {
+      "path": "backend\\ml\\losses.py",
+      "extension": ".py",
+      "bytes": 356
+    },
+    {
+      "path": "backend\\ml\\metrics.py",
+      "extension": ".py",
+      "bytes": 586
+    },
+    {
+      "path": "backend\\ml\\model.py",
+      "extension": ".py",
+      "bytes": 1395
+    },
+    {
+      "path": "backend\\ml\\preprocessing.py",
+      "extension": ".py",
+      "bytes": 808
+    },
+    {
+      "path": "backend\\ml\\train.py",
+      "extension": ".py",
+      "bytes": 4091
+    },
+    {
+      "path": "backend\\ml\\__init__.py",
+      "extension": ".py",
+      "bytes": 0
+    },
+    {
+      "path": "backend\\model\\.gitkeep",
+      "extension": "",
+      "bytes": 0
+    },
+    {
+      "path": "backend\\__pycache__\\__init__.cpython-314.pyc",
+      "extension": ".pyc",
+      "bytes": 188
+    },
+    {
+      "path": "backend\\data\\__pycache__\\inspect_dataset.cpython-314.pyc",
+      "extension": ".pyc",
+      "bytes": 13620
+    },
+    {
+      "path": "backend\\data\\__pycache__\\__init__.cpython-314.pyc",
+      "extension": ".pyc",
+      "bytes": 193
+    }
+  ],
+  "summary": {
+    "file_count": 113,
+    "extension_counts": {
+      "": 3,
+      ".example": 1,
+      ".md": 8,
+      ".txt": 1,
+      ".py": 32,
+      ".yaml": 2,
+      ".html": 1,
+      ".json": 1,
+      ".jsx": 14,
+      ".js": 1,
+      ".css": 1,
+      ".csv": 2,
+      ".tif": 42,
+      ".tmp": 1,
+      ".pyc": 3
+    },
+    "image_like_count": 42
+  },
+  "duplicate_groups": [
+    [
+      ".env",
+      ".env.example"
+    ],
+    [
+      "backend\\__init__.py",
+      "backend\\ais\\__init__.py",
+      "backend\\api\\__init__.py",
+      "backend\\data\\inspect_dataset.py.tmp",
+      "backend\\data\\__init__.py",
+      "backend\\geospatial\\__init__.py",
+      "backend\\ml\\__init__.py",
+      "backend\\model\\.gitkeep"
+    ]
+  ]
+}

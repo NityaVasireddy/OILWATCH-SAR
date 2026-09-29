@@ -1,0 +1,1 @@
+export default function Header({modelReady,device}){return <header><div><div className="brand">OILWATCH-SAR</div><div className="sub">AI-Powered SAR Oil Spill Detection & Vessel Investigation</div></div><div className="status">{modelReady?'MODEL READY':'MODEL NOT LOADED'}<span>{device||'—'}</span></div></header>}

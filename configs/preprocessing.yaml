@@ -1,0 +1,6 @@
+version: "1.0"
+image_size: 256
+clip_percentiles: [1.0, 99.0]
+normalization: minmax
+invalid_fill: 0.0
+mask_interpolation: nearest

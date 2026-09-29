@@ -1,0 +1,1 @@
+export default function ReportExport(){return <div className="card"><h3>REPORT</h3><p>Report export uses actual analysis payloads only.</p></div>}

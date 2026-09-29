@@ -1,0 +1,1 @@
+export default function SarUpload({file,onChange,onAnalyze,busy}){return <div><label className="upload">UPLOAD SAR IMAGE<input type="file" accept="image/*,.tif,.tiff" onChange={e=>onChange(e.target.files[0])}/></label>{file&&<button onClick={onAnalyze} disabled={busy}>{busy?'ANALYZING…':'ANALYZE SAR'}</button>}</div>}

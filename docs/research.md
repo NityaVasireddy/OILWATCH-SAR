@@ -1,0 +1,2 @@
+# Research basis
+OILWATCH-SAR uses Sentinel-1 SAR because radar supports all-weather, day/night maritime observation and is used for oil-spill monitoring. The supplied training dataset is the Zenodo Oil Spill Segmentation dataset (DOI 10.5281/zenodo.4672426), described as 23 Gulf of Mexico scenes from 2018–2020 using Sentinel-1A GRD VV. The implementation treats segmentation as decision support; dark SAR signatures can have non-oil look-alikes. References: Zenodo record; ESA Sentinel-1 mission pages.

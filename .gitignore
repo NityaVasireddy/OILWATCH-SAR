@@ -1,0 +1,13 @@
+dataset/raw/
+dataset/processed/
+*.rar
+*.7z
+*.pth
+.env
+node_modules/
+__pycache__/
+*.pyc
+results/
+outputs/
+*.tmp
+ais_output.txt

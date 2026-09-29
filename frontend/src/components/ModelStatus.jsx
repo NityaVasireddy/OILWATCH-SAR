@@ -1,0 +1,1 @@
+export default function ModelStatus({health}){return <div><h3>MODEL STATUS</h3><b>{health?.model_loaded?'READY':'NOT LOADED'}</b><p>Channels: {health?.input_channels??'—'}</p><p>Input size: {health?.input_size??'—'}</p><p>Device: {health?.device??'—'}</p></div>}

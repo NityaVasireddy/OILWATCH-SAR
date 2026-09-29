@@ -1,0 +1,1 @@
+export default function VesselTable({vessels=[]}){return <div className="card"><h3>INVESTIGATION LEADS</h3>{!vessels.length?<p>No AIS candidates available.</p>:<table><tbody>{vessels.map(v=><tr key={v.mmsi}><td>{v.vessel_name||'Unnamed vessel'}</td><td>{v.mmsi}</td><td>{v.correlation_score?.toFixed(1)}</td></tr>)}</tbody></table>}</div>}
